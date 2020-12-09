@@ -1,0 +1,187 @@
+body{
+   font-family: 'Roboto', sans-serif;
+}
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+/* ---- Header Top ---- */
+
+.header-top{
+   display: flex;
+   justify-content: center;
+   height: 70px;
+}
+
+.header-top > .container{
+   width: 85%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.header-top nav > ul{
+   list-style: none;
+}
+
+.header-top nav > ul > li{
+   display: inline-flex;
+   align-items: center;
+}
+
+.header-top nav > ul > li:not(:last-of-type){
+   margin-right: 20px;
+}
+
+.header-top nav > ul > li > i{
+   font-size: 8px;
+   margin-left: 3px;
+   color: #171520;
+}
+
+.header-top a{
+   text-decoration: none;
+   color: #171520;
+}
+
+.h-logo {
+   margin-right: auto;
+   margin-left: 200px;
+}
+
+.h-logo img{
+   width: 120px;
+}
+
+.utility{
+   display: flex;
+   align-items: center;
+}
+
+.utility i{
+   color: #171520;
+}
+
+.utility .chart{
+   position: relative;
+}
+
+.utility .chart .items{
+   width: 12px;
+   height: 12px;
+   border-radius: 50%;
+   background-color: #1fad95;
+   position: absolute;
+   top: -8px;
+   right: -5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.utility .chart .items span{
+   color: white;
+   font-size: 10px;
+}
+
+.utility > i {
+   margin: 0 20px;
+}
+
+.search{
+   background-color: #F5F5F5;
+   border-radius: 5px;
+   padding: 10px;
+}
+
+.search input{
+   border: none;
+   background-color: #F5F5F5;
+   outline: none;
+}
+
+.search i{
+   border: none;
+   color: #1fad95;
+   font-size: 12px;
+}
+
+/* ---- Header Bottom ---- */
+
+.header-bottom{
+   height: 700px;
+   background-image: url("../img/jumbo.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+
+.jumbotron{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.jumbotron h1{
+   margin-bottom: 20px;
+   margin-top: 10px;
+}
+
+.jumbotron h1, h2{
+   color: white;
+}
+
+.download{
+   background-color: white;
+   padding: 10px 30px;
+   border-radius: 5px;
+}
+
+.download a{
+   text-decoration: none;
+}
+
+.download i,a{
+   color: #2fab97;
+}
+
+.right-utility{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   padding: 10px 5px;
+   border-radius: 3px;
+   position: absolute;
+   top: 20%;
+   right: 0;
+}
+
+.right-utility i:not(:last-of-type){
+   margin-bottom: 15px;
+}
+
+/* debug */
+
+.border{
+   border: 1px solid yellow;
+}
+
+.h-100{
+   height: 100px;
+}
+
+.h-300{
+   height: 300px;
+}
+
+.h-500{
+   height: 500px;
+}
