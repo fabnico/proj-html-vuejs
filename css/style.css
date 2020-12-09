@@ -168,11 +168,119 @@ body{
    margin-bottom: 15px;
 }
 
+main{
+   width: 60%;
+   margin: 0 auto;
+}
+
+/* ----- Learn ----- */
+
+.learn{
+   margin: 100px 0;
+   display: flex;
+   justify-content: space-between;
+}
+
+.culture{
+   width: 30%;
+}
+
+.circle{
+   background-color: #ECC5AB;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.circle2{
+   background-color: white;
+   width: 80%;
+   height: 80%;
+   border-radius: 50%;
+}
+
+.learn-images{
+   position: relative;
+}
+
+.learn-img{
+   width: 400px;
+   border-radius: 5px;
+}
+
+.blue-girl{
+   width: 120px;
+   height: 120px;
+   border-radius: 3px;
+   position: absolute;
+   top: -50px;
+   right: -50px;
+}
+
+.blue-circle{
+   width: 60px;
+   position: absolute;
+   bottom: -35px;
+   right: 50px;
+}
+
+.dots{
+   width: 60px;
+   position: absolute;
+   top: -50px;
+   right: 35px;
+   z-index: -1;
+}
+
+.culture p{
+   margin: 20px 0;
+}
+
+.culture h1{
+   margin-top: 20px;
+}
+
+.culture a{
+   text-decoration: none;
+   border-bottom: 2px solid #E0E0E0;
+}
+
+.statistics{
+   display: flex;
+   justify-content: center;
+}
+
+.data{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.data:not(:last-of-type){
+   margin-right: 80px;
+}
+
+.data span:first-child{
+   font-size: 30px;
+   margin-bottom: 10px;
+}
+
+
+.green{
+   color: #2fab97;
+}
+
+.grey{
+   color: #171520;
+}
 /* debug */
 
-.border{
+/* .border{
    border: 1px solid yellow;
-}
+} */
 
 .h-100{
    height: 100px;
