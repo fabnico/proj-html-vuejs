@@ -133,7 +133,7 @@ body{
    margin-top: 10px;
 }
 
-.jumbotron h1, h2{
+.jumbotron h1, .jumbotron h2{
    color: white;
 }
 
@@ -147,7 +147,7 @@ body{
    text-decoration: none;
 }
 
-.download i,a{
+.download i, .download a{
    color: #2fab97;
 }
 
@@ -173,10 +173,13 @@ main{
    margin: 0 auto;
 }
 
+section{
+   margin-bottom: 130px;
+}
 /* ----- Learn ----- */
 
 .learn{
-   margin: 100px 0;
+   margin-top: 130px;
    display: flex;
    justify-content: space-between;
 }
@@ -251,6 +254,7 @@ main{
 .statistics{
    display: flex;
    justify-content: center;
+   margin-top: 50px;
 }
 
 .data{
@@ -268,6 +272,68 @@ main{
    margin-bottom: 10px;
 }
 
+/* ----- Upgrade ----- */
+
+.upgrade{
+   display: flex;
+   justify-content: space-between;
+}
+
+.upgrade-text{
+   width: 40%;
+}
+
+.upgrade-images{
+   position: relative;
+}
+
+.upg-img{
+   width: 550px;
+   border-radius: 5px;
+}
+
+.dots-upg{
+   width: 80px;
+   position: absolute;
+   bottom: -50px;
+   right: -10px;
+   z-index: -1;
+}
+
+.dots-rnd{
+   width: 80px;
+   position: absolute;
+   top: 20px;
+   left: -50px;
+   z-index: -1;
+}
+
+.upgrade-text p{
+   margin: 20px 0;
+}
+
+.upgrade-text h1{
+   margin-top: 20px;
+}
+
+.upgrade-text a{
+   text-decoration: none;
+   border-bottom: 2px solid #E0E0E0;
+}
+
+.upgrade .circle{
+   margin-bottom: 20px;
+}
+
+.yt{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 80px;
+}
+
+
 
 .green{
    color: #2fab97;
@@ -276,11 +342,9 @@ main{
 .grey{
    color: #171520;
 }
+
 /* debug */
 
-/* .border{
-   border: 1px solid yellow;
-} */
 
 .h-100{
    height: 100px;
