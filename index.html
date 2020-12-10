@@ -2,7 +2,7 @@
 
 <!-- Come da consegna, la webpage non è responsive. -->
 
-<!-- N.B. Alcuni elementi grafici non erano presenti nella cartella immagini,
+<!-- Alcuni elementi grafici non erano presenti nella cartella immagini,
       quelli che ho potuto ricreare manualmente in html e css li ho inseriti. -->
 
 <html lang="en" dir="ltr">
@@ -23,28 +23,8 @@
                <div class="container">
                   <nav>
                      <ul>
-                        <li>
-                           <a href="#">Home</a>
-                           <i class="fas fa-chevron-down"></i>
-                        </li>
-                        <li>
-                           <a href="#">Pages</a>
-                           <i class="fas fa-chevron-down"></i>
-                        </li>
-                        <li>
-                           <a href="#">Courses</a>
-                           <i class="fas fa-chevron-down"></i>
-                        </li>
-                        <li>
-                           <a href="#">Features</a>
-                           <i class="fas fa-chevron-down"></i>
-                        </li>
-                        <li>
-                           <a href="#">Blog</a>
-                           <i class="fas fa-chevron-down"></i>
-                        </li>
-                        <li>
-                           <a href="#">Shop</a>
+                        <li v-for="el in headerNav">
+                           <a href="#">{{el}}</a>
                            <i class="fas fa-chevron-down"></i>
                         </li>
                      </ul>
@@ -221,7 +201,7 @@
                   </div>
                   <div class="test-box">
                      <span><strong>Professional team of specialists and passionate mentors at reach</strong></span>
-                     <p>I need to get a certification for English profiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students</p>
+                     <p>I need to get a certification for English profiency and MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.</p>
                      <div class="test-01">
                         <img src="img/testimonial-avata-01.jpg" alt="Testimonial">
                         <div class="name">
@@ -339,30 +319,20 @@
                      <li>+1(305)547-9909 (9am - 5pm EST. Monday - Friday)</li>
                      <li>support@maxcoach.com</li>
                      <li>
-                        <a href="#"><i class="fab fa-facebook-square"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a v-for="el in footerSocial" href="#"><i :class="el"></i></a>
                      </li>
                   </ul>
                   <ul class="explore">
                      <li><strong>Explore</strong></li>
-                     <li><a href="#">Start here</a></li>
-                     <li><a href="#">Blog</a></li>
-                     <li><a href="#">About us</a></li>
+                     <li v-for="el in footerExplore"><a href="#">{{el}}</a></li>
                   </ul>
                   <ul class="explore">
-                     <li><strong><br></strong></li>
-                     <li><a href="#">Success story</a></li>
-                     <li><a href="#">Courses</a></li>
-                     <li><a href="#">Contact us</a></li>
+                     <li>&nbsp;</li>
+                     <li v-for="el in footerExplore2"><a href="#">{{el}}</a></li>
                   </ul>
                   <ul class="information">
                      <li><strong>Information</strong></li>
-                     <li><a href="#">Membership</a></li>
-                     <li><a href="#">Purchase guide</a></li>
-                     <li><a href="#">Privacy Policy</a></li>
-                     <li><a href="#">Terms of service</a></li>
+                     <li v-for="el in footerInformation"><a href="#">{{el}}</a></li>
                   </ul>
                </div>
                <div class="copy">&copy; 2020 Maxcoach. All rights Reserved</div>
