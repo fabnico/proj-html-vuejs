@@ -168,12 +168,16 @@ body{
    margin-bottom: 15px;
 }
 
-main{
-   width: 60%;
-   margin: 0 auto;
+.bg-gd-gr{
+   background: linear-gradient(to bottom,
+      white 0%,
+      #F7F7F7 50%,
+      #F6F6F8 100%);
 }
 
 section{
+   width: 60%;
+   margin: 0 auto;
    margin-bottom: 130px;
 }
 /* ----- Learn ----- */
@@ -332,6 +336,233 @@ section{
    transform: translate(-50%, -50%);
    width: 80px;
 }
+
+/* ----- Courses ----- */
+
+.courses{
+   padding-bottom: 60px;
+}
+
+.join{
+   text-align: center;
+}
+
+.join h1{
+   margin-top: 10px;
+   margin-bottom: 50px;
+}
+
+.card-course{
+   flex-basis: 300px;
+   border-radius: 5px;
+   position: relative;
+   background-color: white;
+}
+
+.card-course img{
+   width: 300px;
+   border-radius: 5px;
+}
+
+.course-details{
+   display: flex;
+}
+
+.course-details div:first-child{
+   margin-right: 20px;
+}
+
+.course-details i{
+   margin-right: 5px;
+}
+
+.course-details span{
+   font-size: 12px;
+}
+
+.offers{
+   display: flex;
+   justify-content: space-between;
+}
+
+.course-info{
+   padding: 10px 20px;
+}
+
+.course-info h3{
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
+
+.free{
+   background-color: #EE7455;
+   width: 60px;
+   height: 35px;
+   padding: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 2px;
+   color: white;
+   font-weight: bold;
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+.blue-dots{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 40px;
+   margin-bottom: 50px;
+}
+
+.blue-dots i:not(:last-of-type){
+   margin-right: 15px;
+}
+
+.blue-dots i:not(:first-of-type){
+   color: lightgrey;
+   font-size: 10px;
+}
+
+.blue-dots i:first-of-type{
+   font-size: 14px;
+}
+
+.view-courses{
+   text-align: center;
+}
+
+.view-courses a{
+   text-decoration: none;
+   border-bottom: 2px solid #E0E0E0;
+}
+
+/* ----- Testimonials ----- */
+
+.test-container{
+   display: flex;
+}
+
+.test-box{
+   box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.1);
+   padding: 30px;
+   border-radius: 5px;
+   margin-left: 50px;
+}
+
+.test-text p{
+   margin: 20px 0;
+}
+
+.test-text h1{
+   margin-top: 20px;
+}
+
+.test-text a{
+   text-decoration: none;
+   border-bottom: 2px solid #E0E0E0;
+}
+
+.test-box p{
+   margin-bottom: 30px;
+   margin-top: 20px;
+}
+
+
+.test-box img{
+   border-radius: 50%;
+   width: 70px;
+   margin-right: 20px;
+}
+
+.test-01{
+   display: flex;
+   align-items: center;
+}
+
+.name > div{
+   margin-top: 10px;
+}
+
+/* ----- People ----- */
+
+.people{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.people-text{
+   width: 40%;
+}
+
+.people-images{
+   position: relative;
+}
+
+.people-img{
+   width: 450px;
+}
+
+.dots-people{
+   width: 120px;
+   position: absolute;
+   bottom: -65px;
+   right: 145px;
+   z-index: -1;
+}
+
+.dots-rnd-2{
+   width: 110px;
+   position: absolute;
+   bottom: 200px;
+   left: -50px;
+   z-index: -1;
+}
+
+.lines{
+   width: 110px;
+   position: absolute;
+   bottom: 0px;
+   left: -200px;
+   z-index: -1;
+}
+
+.people-text h1{
+   margin-top: 20px;
+}
+
+.people-text p{
+   margin: 20px 0;
+}
+
+.people-text > div:first-child{
+   margin-bottom: 20px;
+}
+
+.guide{
+   background-color: #2fab97;
+   font-weight: bold;
+   border-radius: 5px;
+   font-size: 14px;
+   padding: 15px 25px;
+   width: 200px;
+   text-align: center;
+}
+
+.guide a{
+   text-decoration: none;
+   color: white;
+}
+
+
+
+
+
+
 
 
 
