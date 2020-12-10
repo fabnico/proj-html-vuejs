@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 
-<!-- N.B. Molti elementi grafici non erano presenti nella cartella immagini,
-      quelli che ho potuto ricreare manualmente in html e css li ho inseriti -->
+<!-- Come da consegna, la webpage non è responsive. -->
+
+<!-- N.B. Alcuni elementi grafici non erano presenti nella cartella immagini,
+      quelli che ho potuto ricreare manualmente in html e css li ho inseriti. -->
 
 <html lang="en" dir="ltr">
    <head>
@@ -51,16 +53,16 @@
                      <img src="img/dark-logo.png" alt="Logo MaxCoach">
                   </div>
                   <div class="utility">
-                     <div class="chart">
+                     <a href="#" class="chart">
                         <i class="fas fa-shopping-cart"></i>
                         <div class="items">
                            <span>0</span>
                         </div>
-                     </div>
-                     <i class="far fa-user-circle"></i>
+                     </a>
+                     <a href="#"><i class="far fa-user-circle"></i></a>
                      <div class="search">
                         <input type="text" placeholder="Search...">
-                        <i class="fas fa-search"></i>
+                        <a href="#"><i class="fas fa-search"></i></a>
                      </div>
                   </div>
                </div>
@@ -69,15 +71,15 @@
                <div class="jumbotron">
                   <h2>Commence Business</h2>
                   <h1>Distant Mentoring Program</h1>
-                  <div class="download">
-                     <a href="#" class="grey"><strong>Download free guidebook</strong> <i class="fas fa-arrow-right"></i></a>
-                  </div>
+                  <a href="#" class="download">
+                     <span><strong>Download free guidebook</strong> <i class="fas fa-arrow-right"></i></span>
+                  </a>
                </div>
                <div class="right-utility">
-                  <i class="fas fa-ruler-combined"></i>
-                  <i class="far fa-life-ring"></i>
-                  <i class="fas fa-book"></i>
-                  <i class="fas fa-shopping-cart"></i>
+                  <a href="#"><i class="fas fa-ruler-combined"></i></a>
+                  <a href="#"><i class="far fa-life-ring"></i></a>
+                  <a href="#"><i class="fas fa-book"></i></a>
+                  <a href="#"><i class="fas fa-shopping-cart"></i></a>
                </div>
             </div>
          </header>
@@ -197,11 +199,11 @@
                   </div>
                </div>
                <div class="blue-dots">
-                  <i class="fas fa-circle"></i>
-                  <i class="fas fa-circle"></i>
-                  <i class="fas fa-circle"></i>
-                  <i class="fas fa-circle"></i>
-                  <i class="fas fa-circle"></i>
+                  <a href="#"><i class="fas fa-circle"></i></a>
+                  <a href="#"><i class="fas fa-circle"></i></a>
+                  <a href="#"><i class="fas fa-circle"></i></a>
+                  <a href="#"><i class="fas fa-circle"></i></a>
+                  <a href="#"><i class="fas fa-circle"></i></a>
                </div>
                <div class="view-courses">
                   <p>Control your personal preference settings to get notified about <br> appropiate courses. <a href="#" class="grey"><strong>View all courses</strong> <i class="fas fa-arrow-right"></i></a> </p>
@@ -244,7 +246,7 @@
                   <span class="grey">EVERYTHING IN <strong>MAXCOACH</strong></span>
                   <h1>We're Here To <span class="green">Transform</span> You!</h1>
                   <p>As learners, people can enjoy great companionship from MaxCoach mentors and educators. We can help you develop and grow at your best.</p>
-                  <div class="guide"><a href="#">Get Free Guide</a></div>
+                  <a class="guide" href="#"><span>Get Free Guide</span></a>
                </div>
             </section>
          <div class="bg-gr">
@@ -316,9 +318,9 @@
                      <div class="sub-email">
                         <input type="text" placeholder="Enter your email">
                      </div>
-                     <div class="sub-button">
+                     <a href="#" class="sub-button">
                         Subscribe
-                     </div>
+                     </a>
                   </div>
                </div>
                <div class="circle-v2">
@@ -330,41 +332,44 @@
          </main>
          <footer>
             <div class="f-container">
-               <ul class="address">
-                  <li><strong>Address</strong></li>
-                  <li>382 NE 191st ST # 87394 Miami, FL 33179-3899</li>
-                  <li>+1(305)547-9909 (9am - 5pm EST. Monday - Friday)</li>
-                  <li>support@maxcoach.com</li>
-                  <li>
-                     <a href="#"><i class="fab fa-facebook-square"></i></a>
-                     <a href="#"><i class="fab fa-twitter"></i></a>
-                     <a href="#"><i class="fab fa-instagram"></i></a>
-                     <a href="#"><i class="fab fa-linkedin"></i></a>
-                  </li>
-               </ul>
-               <ul class="explore">
-                  <li><strong>Explore</strong></li>
-                  <li><a href="#">Start here</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">About us</a></li>
-               </ul>
-               <ul class="explore">
-                  <li><strong><br></strong></li>
-                  <li><a href="#">Success story</a></li>
-                  <li><a href="#">Courses</a></li>
-                  <li><a href="#">Contact us</a></li>
-               </ul>
-               <ul class="information">
-                  <li><strong>Information</strong></li>
-                  <li><a href="#">Membership</a></li>
-                  <li><a href="#">Purchase guide</a></li>
-                  <li><a href="#">Privacy Policy</a></li>
-                  <li><a href="#">Terms of service</a></li>
-               </ul>
+               <div class="f-el">
+                  <ul class="address">
+                     <li><strong>Address</strong></li>
+                     <li>382 NE 191st ST # 87394 Miami, FL 33179-3899</li>
+                     <li>+1(305)547-9909 (9am - 5pm EST. Monday - Friday)</li>
+                     <li>support@maxcoach.com</li>
+                     <li>
+                        <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                     </li>
+                  </ul>
+                  <ul class="explore">
+                     <li><strong>Explore</strong></li>
+                     <li><a href="#">Start here</a></li>
+                     <li><a href="#">Blog</a></li>
+                     <li><a href="#">About us</a></li>
+                  </ul>
+                  <ul class="explore">
+                     <li><strong><br></strong></li>
+                     <li><a href="#">Success story</a></li>
+                     <li><a href="#">Courses</a></li>
+                     <li><a href="#">Contact us</a></li>
+                  </ul>
+                  <ul class="information">
+                     <li><strong>Information</strong></li>
+                     <li><a href="#">Membership</a></li>
+                     <li><a href="#">Purchase guide</a></li>
+                     <li><a href="#">Privacy Policy</a></li>
+                     <li><a href="#">Terms of service</a></li>
+                  </ul>
+               </div>
+               <div class="copy">&copy; 2020 Maxcoach. All rights Reserved</div>
             </div>
+               <a class="circle-arrow" href="#"><i class="fas fa-arrow-up"></i></a>
          </footer>
       </div>
       <script src="js/main.js"></script>
    </body>
 </html>
-<a href="#"></a>

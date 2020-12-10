@@ -87,8 +87,8 @@ body{
    font-size: 10px;
 }
 
-.utility > i {
-   margin: 0 20px;
+.utility > a {
+   margin-right: 20px;
 }
 
 .search{
@@ -139,16 +139,23 @@ body{
 
 .download{
    background-color: white;
-   padding: 10px 30px;
+   padding: 15px 35px;
    border-radius: 5px;
 }
 
-.download a{
+.download {
    text-decoration: none;
 }
 
-.download i, .download a{
-   color: #2fab97;
+.download > span {
+   color: #1fad95;
+}
+
+.download:hover {
+   background-color: #1fad95;
+}
+.download:hover.download > span{
+   color: white;
 }
 
 .right-utility{
@@ -164,8 +171,13 @@ body{
    right: 0;
 }
 
-.right-utility i:not(:last-of-type){
+.right-utility a:not(:last-of-type){
    margin-bottom: 15px;
+}
+
+.right-utility a{
+   text-decoration: none;
+   color: black;
 }
 
 .bg-gd-gr{
@@ -357,6 +369,11 @@ section{
    border-radius: 5px;
    position: relative;
    background-color: white;
+   cursor: pointer;
+}
+
+.card-course:hover .course-info > h3{
+   color: #1fad95;
 }
 
 .card-course img{
@@ -417,17 +434,20 @@ section{
    margin-top: 40px;
    margin-bottom: 50px;
 }
+.blue-dots a{
+   color: black;
+}
 
-.blue-dots i:not(:last-of-type){
+.blue-dots a:not(:last-of-type){
    margin-right: 15px;
 }
 
-.blue-dots i:not(:first-of-type){
+.blue-dots a:not(:first-of-type){
    color: lightgrey;
    font-size: 10px;
 }
 
-.blue-dots i:first-of-type{
+.blue-dots a:first-of-type{
    font-size: 14px;
 }
 
@@ -544,17 +564,17 @@ section{
 }
 
 .guide{
+   margin-top: 20px;
    background-color: #2fab97;
    font-weight: bold;
    border-radius: 5px;
    font-size: 14px;
-   padding: 15px 25px;
-   width: 200px;
+   padding: 15px 45px;
    text-align: center;
+   text-decoration: none;
 }
 
-.guide a{
-   text-decoration: none;
+.guide span{
    color: white;
 }
 
@@ -581,6 +601,7 @@ section{
    flex-basis: 300px;
    border-radius: 5px;
    position: relative;
+   cursor: pointer;
 }
 
 .card-blog img{
@@ -660,6 +681,7 @@ section{
    color: white;
    font-weight: bold;
    font-size: 14px;
+   text-decoration: none;
 }
 
 .subscribe .form{
@@ -693,14 +715,6 @@ section{
    top: 20px;
 }
 
-.green{
-   color: #2fab97;
-}
-
-.grey{
-   color: #171520;
-}
-
 /* ----- Footer ----- */
 
 footer{
@@ -721,6 +735,9 @@ footer a{
 .f-container{
    width: 60%;
    margin: 0 auto;
+}
+
+.f-el{
    display: flex;
    justify-content: space-between;
 }
@@ -764,4 +781,33 @@ footer .address a:not(:last-of-type){
 .information li:nth-of-type(1){
    color: white;
    font-size: 18px;
+}
+
+.copy{
+   margin-top: 50px;
+   text-align: center;
+}
+
+.circle-arrow{
+   width: 50px;
+   height: 50px;
+   background-color: #2fab97;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: auto;
+   margin-right: 10px;
+}
+
+.circle-arrow > i{
+   color: white;
+}
+
+.green{
+   color: #2fab97;
+}
+
+.grey{
+   color: #171520;
 }
