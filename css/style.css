@@ -558,13 +558,140 @@ section{
    color: white;
 }
 
+/* ----- Blog ----- */
+
+.blog{
+   padding: 50px 0;
+}
+
+.bg-gr{
+   background-color: #F6F6F8
+}
+
+.intro{
+   text-align: center;
+}
+
+.intro h1{
+   margin-top: 10px;
+   margin-bottom: 50px;
+}
+
+.card-blog{
+   flex-basis: 300px;
+   border-radius: 5px;
+   position: relative;
+}
+
+.card-blog img{
+   width: 300px;
+   border-radius: 5px;
+}
+
+.blog-details{
+   display: flex;
+}
+
+.blog-details div:first-child{
+   margin-right: 20px;
+}
+
+.blog-details i{
+   margin-right: 5px;
+}
+
+.blog-details span{
+   font-size: 12px;
+}
+
+.blogs{
+   display: flex;
+   justify-content: space-between;
+}
+
+.blog-info{
+   margin-top: 10px;
+}
+
+.blog-info h3{
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
 
 
+/* ----- Newsletters ----- */
 
+.newsletters{
+   display: flex;
+   justify-content: center;
+   position: relative;
+}
 
+.subscribe{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
 
+.subscribe p{
+   margin-top: 20px;
+   margin-bottom: 40px;
+}
 
+.sub-email{
+   background-color: #F6F6F8;
+   padding: 15px;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
 
+.sub-email input{
+   border: none;
+   outline: none;
+   background-color: #F6F6F8;
+   width: 300px;
+}
+
+.sub-button{
+   background-color: #2fab97;
+   padding: 15px;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   color: white;
+   font-weight: bold;
+   font-size: 14px;
+}
+
+.subscribe .form{
+   display: flex;
+}
+
+.circle-v2{
+   background-color: #2fab97;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   left: 0;
+   top: 50px;
+}
+
+.d-curv{
+   width: 150px;
+   position: absolute;
+   right: 0;
+   top: -50px;
+}
+
+.n-shape{
+   height: 100px;
+   position: absolute;
+   right: 0;
+   top: 20px;
+}
 
 .green{
    color: #2fab97;
